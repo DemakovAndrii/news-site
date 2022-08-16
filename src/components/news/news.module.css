@@ -1,0 +1,46 @@
+.block {
+	display: flex;
+	gap: 30px;
+
+	padding: 35px;
+	background-color: #C1C1ED;
+	margin-bottom: 30px;
+}
+
+.photo {
+	width: 50%;
+	height: 285px;
+	background: black;
+}
+
+img {
+	width: 441px;
+	height: 285px;
+	object-fit: cover;
+}
+
+.textBlock {
+	display: flex;
+	flex-direction: column;
+
+	width: 50%;
+}
+
+.text {
+	overflow: hidden;
+	font-size: 18px;
+	max-height: 245px;
+}
+
+.button {
+	display: flex;
+	margin: 0 auto;
+
+	padding: 5px 15px;
+	margin-top: 10px;
+	font-size: 18px;
+
+	border: 1px black solid;
+	border-radius: 20px;
+	background: none;
+}
