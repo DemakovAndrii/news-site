@@ -10,12 +10,6 @@
 .photo {
 	width: 50%;
 	height: 285px;
-	background: black;
-}
-
-img {
-	width: 441px;
-	height: 285px;
 	object-fit: cover;
 }
 

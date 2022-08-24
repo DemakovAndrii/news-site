@@ -4,9 +4,7 @@ import cl from './news.module.css'
 const News = (props) => {
 	return (
 		<div className={cl.block}>
-			<div className={cl.photo}>
-				<img src={props.photo} />
-			</div>
+			<img src={props.photo} className={cl.photo} />
 			<div className={cl.textBlock}>
 				<div className={cl.text}>{props.text}</div>
 				<div>

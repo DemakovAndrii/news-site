@@ -7,12 +7,23 @@
 
 	color: black;
 	font-size: 20px;
-
 }
 
 .headerLinks {
 	display: flex;
 	justify-content: space-between;
 
-	width: 500px;
+	width: 400px;
+}
+
+.headerSearch {
+	padding: 5px 10px;
+
+	border: 1px solid black;
+	border-radius: 15px;
+}
+
+input {
+	font-size: 18px;
+	width: 180px;
 }
